@@ -167,23 +167,23 @@ body {
 
 .feedback-stats-review {
 	position: absolute;
-	left: 26%;
+	left: 25%;
 }
 
 .feedback-stats-avr-rating {
 	position: absolute;
-	right: 26%;
+	right: 25%;
 }
 
 @media screen and (max-width: 1000px) {
 	.feedback-stats-review {
 		position: absolute;
-		left: 7%;
+		left: 5%;
 	}
 
 	.feedback-stats-avr-rating {
 		position: absolute;
-		right: 7%;
+		right: 5%;
 	}
 }
 
@@ -235,7 +235,7 @@ body {
 
 .about-link a {
 	position: absolute;
-	right: 30px;
+	right: 25%;
 	/* color: #f38f32; */
 	color: #fff;
 	text-decoration: none;
@@ -244,4 +244,11 @@ body {
 .about-link a:hover {
 	/* color: #f38f32; */
 	color: #f3ae73;
+}
+
+@media screen and (max-width: 1000px) {
+	.about-link a {
+		position: absolute;
+		right: 5%;
+	}
 }
