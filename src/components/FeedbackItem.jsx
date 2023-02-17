@@ -15,13 +15,13 @@ function FeedbackItem({ item }) {
 						onClick={() => editFeedback(item)}
 						className='edit'
 					>
-						<FaEdit />
+						<FaEdit color='rgba(33, 68, 9, 0.719)'/>
 					</button>
 					<button
 						onClick={() => deleteFeedback(item.id)}
 						className='close'
 					>
-						<FaTimes />
+						<FaTimes color='rgba(33, 68, 9, 0.719)' />
 					</button>
 				</div>
 

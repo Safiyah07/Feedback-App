@@ -12,7 +12,7 @@ function About() {
 			</p>
 			<p>V.1.0.0</p>
 			<br />
-			<Link to='/'>Back To Home</Link>
+			<Link to='/' className='back-to-home'>Back To Home</Link>
 		</Card>
 	)
 }
